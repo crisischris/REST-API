@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<title>REST API</title>
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</head>
+<body>
+<h1>Please authenticate below to start using the API</h1>
+<br><br><br>
+<p>follow the link below to authenticate with google and retrieve your JWT</p>
+<br>
+<a href={{url}}>authenticate</a>
+</body>
+</html>
